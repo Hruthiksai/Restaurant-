@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: futura PT;
+
+
+}
+
+.img{
+    background-image: url(https://res.cloudinary.com/devmclblo/image/upload/v1711478198/logo_hruthik_sai_bg.png);
+    width: 140px;
+    height: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-blend-mode:color-burn ; */
+    /* background-color: white; */
+}
+.con{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dad7cd;
+    width: auto;
+}
+.menu{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 2;
+}
+
+
+video{
+    width: 100%;
+    object-fit: cover;
+}
+
+.both{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    
+}
+.both-contain{
+    max-width: 90%;
+    margin: auto;
+    /* padding: 0px 60px; */
+    text-align: center;
+    padding-top: 1rem;
+}
+.both-contain span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3F2537;
+    margin-bottom: 2rem;
+    border-bottom: 1px dashed #3F2537;
+    
+}
+.btn{
+    font-size: 0.8rem;
+    margin: 16px 0px;
+    padding: 8px 24px;
+    border-radius: 100px;
+    color: #512869;
+    background-color: #F4F5F0;
+    border-color: #512869;
+    letter-spacing: 1px;
+}
+.btn:hover{
+    background-color: #512869;
+    color:#F4F5F0 ;
+}
+img:hover{
+    transform: scale(0.75);
+    border-radius: 100px;
+}
+
+.para{
+    line-height: 1.5;
+    color: #3F2537;
+    margin-top: 1.2rem;
+    /* padding: 10px 60px; */
+
+}
+
+
+.both-img{
+    /* width: 50%; */
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  
+}
+.both-img img{
+    width: 100%;
+    
+    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: all 2s ease-in;
+}
+
+footer{
+    background-color: #3F2537;
+    text-align: center;
+    margin: 5px 0px;
+    
+}
+footer p{
+    line-height: 60px;
+    color: #F4F5F0;
+}
